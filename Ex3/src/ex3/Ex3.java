@@ -42,10 +42,32 @@ public class Ex3 {
 
 	public static void main(String []args) {
 		Ex3 q3 = new Ex3();
-		double ans = q3.function_f_kn(10, 20);
-		System.out.println("f = "+ans);
 		
+		System.out.println("f for the following value pairs (k, n) = (10, 20):");
+		double ans1 = q3.function_f_kn(10, 20);
+		System.out.println("f = "+ans1);
 		double ans2 = q3.function_f_increasing_n(10, 20);
 		System.out.println("f with increasing n = "+ans2);
+		System.out.println("\n");
+		
+		System.out.println("f for the following value pairs (k, n) = (100, 120):");
+		double ans3 = q3.function_f_kn(100, 120);
+		System.out.println("f = "+ans3);
+		double ans4 = q3.function_f_increasing_n(100, 120);
+		System.out.println("f with increasing n = "+ans4);
+		System.out.println("\n");
+		
+		System.out.println("f for the following value pairs (k, n) = (1000, 1200):");
+		double ans5 = q3.function_f_kn(1000, 1200);
+		System.out.println("f = "+ans5);
+		double ans6 = q3.function_f_increasing_n(1000, 1200);
+		System.out.println("f with increasing n = "+ans6);
+		System.out.println("\n");
+		
+		System.out.println("f for the following value pairs (k, n) = (10000, 10200):");
+		double ans7 = q3.function_f_kn(10000, 10200);
+		System.out.println("f = "+ans7);
+		double ans8 = q3.function_f_increasing_n(10000, 10200);
+		System.out.println("f with increasing n = "+ans8);
 	}
 }
